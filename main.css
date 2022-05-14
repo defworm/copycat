@@ -1,0 +1,11 @@
+nav{
+    color:#1c1c1c;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 10.5px 14px;
+    border: solid purple;
+    height: 5%;
+    width: auto;
+    box-sizing: border-box;
+}

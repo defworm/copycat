@@ -1,11 +1,47 @@
-nav{
+.nav-list{
     color:#1c1c1c;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffffff;
-    padding: 10.5px 14px;
+    margin: 0;
+    padding: 0;
     border: solid purple;
-    height: 5%;
-    width: auto;
-    box-sizing: border-box;
+    /* height: 10%;
+    width: auto; */
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    justify-content: space-between;
 }
+
+.nav-list li{
+    border:solid green;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+
+.nav-list li:nth-child(3){
+    background-color: pink;
+    align-self: flex-end;
+}
+
+article{
+    display: flow-root;
+    flex-direction: column;
+    gap: 5rem;
+    border: solid firebrick;
+}
+
+@media (min-width: 600px) {
+    article {
+        flex-direction: row;
+    }
+}
+
+article .box2{
+    /* flex-shrink: 1; */
+    /* border: solid pink
+} */
